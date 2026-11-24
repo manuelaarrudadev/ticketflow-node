@@ -1,0 +1,5 @@
+{
+  "name": "ticketflow-node",
+  "private": true,
+  "workspaces": ["apps/*"]
+}
