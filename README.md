@@ -68,6 +68,27 @@ Todas as respostas seguem o mesmo envelope:
 
 O andamento detalhado está nas [issues](../../issues) e nos [milestones](../../milestones) do repositório.
 
+## Como contribuir
+
+O projeto segue um fluxo simples, o mesmo para qualquer mudança:
+
+1. **Issue primeiro:** toda mudança nasce de uma issue, vinculada a um milestone.
+2. **Uma branch por issue**, no formato `tipo/numero-descricao` (ex.: `feat/5-lote-invariantes`).
+3. **Commits** no padrão [Conventional Commits](https://www.conventionalcommits.org/pt-br/), em português, com o número da issue:
+
+   | Tipo | Uso |
+   |---|---|
+   | `feat` | funcionalidade nova |
+   | `fix` | correção de bug |
+   | `test` | testes |
+   | `refactor` | melhoria sem mudar comportamento |
+   | `docs` | documentação |
+   | `chore` | configuração e manutenção |
+
+   Exemplo: `feat(api): adiciona baixa atômica de estoque (#12)`
+
+4. **Pull Request** para a `main`, usando o template do repositório, com `Closes #N` na descrição para fechar a issue no merge.
+
 > Este projeto teve uma primeira versão em Java/Spring Boot, mantida como histórico. Esta versão reescreve a solução em Node.js + TypeScript e adiciona o front-end em React.
 
 ## Licença
